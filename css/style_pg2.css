@@ -1,0 +1,32 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+main{
+    display: grid;
+    grid-template-areas: 
+    "h h h h"
+    "m m m m"
+    "n n v c"
+    "a a a a"
+    ;
+    background-color: wheat;
+    height:100vh;
+    grid-gap: 10px;
+}
+#nav{
+    grid-area: h;
+    height: 20px;
+}
+#sc{
+    grid-area: m;
+}
+#at{
+    grid-area: n;
+}
+#uno{
+    grid-area: v;
+}
+#dos{
+    grid-area: c;
+}
+#fn{
+    grid-area: a;
+}
